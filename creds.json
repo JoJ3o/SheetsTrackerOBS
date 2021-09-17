@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "sheetstrackerobs",
+  "private_key_id": "6b69750422083a7174526b07a51d7f473db74093",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDHUhHIR+NLjiA+\nh0N7vPd/hEegqKZ7lgRsLcA/d0FzY4LAgfRGyK5kV1hZf5Vx8dO2wfIGAxZ4asWS\nVH8xt4L5w5MXPjv29/FxtzGCWDakSai2EOpsCTHxiwzT6F+2gUDSsMm8tSky444a\n54mjhgZCeeTFCACBcicBlq5NzdMkE3nV7zMkEQw96rY0wPeiS3F3lCWuqh59fgZN\nbtu+K6gnWYbkNYT56RtgzySoSWczg2gybReg9f3O/KLToWnPtBJ65Ar+zLduHoNL\nVnDRpHJYh+4tN7M+umzEsu5Y0HHpBGMsBNWSp7raEKGYWmXbPs6O9vTGCNEH7K4r\nM4hiOlwFAgMBAAECggEAEE7EqbBIBnyAYt1KRit1zHcULS7fQClL/1XW7tpg/oHb\nxshbJhdxPUBwOBJaNdJlUgSYOqmyAvQpagmDxpuPGcRImpQ677/lfzpP0KxK/DIS\nnaLQqzotXefUitnuSs5UcWiJeOkRj9pSXB0pg7mJdZLnhr9a2zxtuJGNfUwjxEW2\nlzo1AvHAspLRqhb/qa6EYN6LLL6L0KwamhMGmXkHz9F4aj2qHLLUuGBhBKUIsQ4P\ntUiGakqnA7DlrpYPJ+E+2ZQHdotGOOmATE/aWwZqOev3X1Lo+NeteBeGjf5J5HZw\nVV9WpU0ampQbkB5cAK9U/L0z9QqWrWu75MRlSrb92QKBgQDzXkTyLzPCTa6RPSDR\n0rXhHKwVQihqYCuwf1y9PwdtTahNtoQU7QVXcEboKjJRwVNIbFagzHNBDKjUvMZ4\nlT+d9e/fH5/+TFfvalT6v8AP6onMBIYUYhkL2GOJlwAm/k87OuhvZ5RG9Jm1qdMM\n7MgHTCmVDBtfu/LhKofgkVf/jwKBgQDRqoV63Kt2Oov1wOFIDuIkMqmdHB7AqR47\n62cqaJ/S65UjnL2MM5zAQOEp0uFCzEqiDIu8fxg1DlbLiSpN2ni3m3Ja61ye9ayM\nJ0bZJKqOJYJSIJBghVMQiMPzuUZqS81GspUwYPFF4wscPLxupxJXib1k92UZ1JkC\ni/jOVu8hKwKBgHO0H+dclakNMa+PdmkLWrlZ3l6FA53/dwYEp1y5+Jf40cmQup8Q\nSPfXQ37hgObpmOTXzR/J1AnbMPFjhqCRpJs+7/oOmQxX037Z+Oj1/SQUB8tdYzmR\nogLFsB0cE1B2m8i3Kwa8IfzSEboSsWp1sGv3w9U+2kzbmI+AnvUfZMz1AoGBAIRH\n1ZdCils5bPxMCNZxrXOxExowl6ZuDMk5KAm1oMBuKdYiGeTO22LgjC7bAYwnYB8F\nU1RFy3wN4+zeSXZ9FBSjWm7Kd9FCpu52CVkOrRypxaMTMIP1GgcggqDOkAKYeJbW\nLRIs14yERoo2N5yIhCX+nSOKgprdavwUW5Gzf4OpAoGAebl+VxdfsSIKEmkGPrhd\nHTXdTRAhDJuD9ii9PxuFGObAhQuRrMoa5F/hl9A6wiPPdnGg0e9qY08EDfrbuA8S\nKYgIw2hBIXHUO9WAQrFCbW/LWN3IR7FC/BEcGqaauzV0UC2FHOPL5PBn8kjr5Evm\nGh1VHL1hu926jCfM9pBAKAw=\n-----END PRIVATE KEY-----\n",
+  "client_email": "jojobo@sheetstrackerobs.iam.gserviceaccount.com",
+  "client_id": "108512129316141293428",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/jojobo%40sheetstrackerobs.iam.gserviceaccount.com"
+}
