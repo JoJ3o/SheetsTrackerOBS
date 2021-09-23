@@ -2,6 +2,7 @@ from os import truncate
 import gspread
 from pprint import pprint
 import math
+import json
 
 client = gspread.service_account("creds.JSON")
 
@@ -31,3 +32,5 @@ target = getTarget(best)
 pb = sheet.cell(val.row, 3).value
 
 pprint(name + " | " + target + " | " + pb)
+data = {"name": name, "target": target, "pb": pb}
+asJSON = json.dumps(data)
