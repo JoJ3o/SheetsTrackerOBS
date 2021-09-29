@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SheetsTrackerOBS</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+</head>
+<body>
+    <div id="main">
+        <p><span id="name"></span><br>
+            Target=<span id="target"></span>, PB=<span id="pb"></span></p>
+    </div>
+    <script>
+        var data;
+        // Send the same request
+        fetch('/hello')
+            .then(function (response) {
+                return response.json(); // But parse it as JSON this time
+            })
+            .then(function (json) {
+                data = json;
+                console.log('GET response as JSON:');
+                console.log(typeof jsonData); // Here’s our JSON object
+            })
+            .then(function() {
+                console.log(data)
+                const starName = document.getElementById('name');
+                const target = document.getElementById('target');
+                const pb = document.getElementById('pb');
+                starName.innerHTML = data["name"]
+                target.innerHTML = data["target"]
+                pb.innerHTML = data["pb"]
+            })
+    </script>
+</body>
+</html>
