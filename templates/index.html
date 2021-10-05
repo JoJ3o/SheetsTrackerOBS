@@ -14,25 +14,24 @@
             Target=<span id="target"></span>, PB=<span id="pb"></span></p>
     </div>
     <script>
-        var data;
         // Send the same request
         fetch('/hello')
             .then(function (response) {
                 return response.json(); // But parse it as JSON this time
             })
             .then(function (json) {
-                data = json;
-                console.log('GET response as JSON:');
-                console.log(typeof jsonData); // Here’s our JSON object
-            })
-            .then(function() {
+                var data = json;
                 console.log(data)
                 const starName = document.getElementById('name');
                 const target = document.getElementById('target');
                 const pb = document.getElementById('pb');
-                starName.innerHTML = data["name"]
-                target.innerHTML = data["target"]
-                pb.innerHTML = data["pb"]
+                if (data["name"] != "") {
+                    starName.innerHTML = data["name"]
+                    target.innerHTML = data["target"]
+                    pb.innerHTML = data["pb"]
+                } else {
+                    document.querySelector("#main").innerHTML = ""
+                }
             })
     </script>
 </body>
