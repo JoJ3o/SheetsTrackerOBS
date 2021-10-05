@@ -1,0 +1,14 @@
+#main {
+  position: absolute;
+  left: 10px;
+  top: -20px;
+}
+
+p {
+  color: pink;
+  font-size: 2rem;
+}
+
+body {
+  background-color: rgb(20, 20, 20);
+}
