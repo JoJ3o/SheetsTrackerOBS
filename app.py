@@ -15,10 +15,15 @@ def getData():
     return message  # serialize and use JSON headers
 
 
-@app.route('/test')
+@app.route('/fetch')
 def test_page():
     # look inside `templates` and serve `index.html`
     return render_template('index.html')
+
+
+@app.route('/sse')
+def testPage():
+    return render_template('index2.html')
 
 
 @app.route('/listen')
@@ -30,11 +35,6 @@ def listen():
             time.sleep(5)
 
     return Response(respondToClient(), mimetype='text/event-stream')
-
-
-@app.route('/test2')
-def testPage():
-    return render_template('index2.html')
 
 
 if __name__ == '__main__':
