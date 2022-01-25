@@ -45,7 +45,7 @@ def main():
     client = gspread.service_account("creds.JSON")
 
     sheet = client.open_by_key(
-        "1Xb0L8hFKLIjhku-ZycmoSZU-1UNu3Mi5y07IxVD5nU4").sheet1
+        "1BKcspDMLHzgqjM-0gVgPTLau_kW9kZ8ZHL78dGQ70_4").sheet1
 
     name = ""
     target = ""
@@ -57,7 +57,7 @@ def main():
             name = getName(sheet.cell(val.row, 1).value)
             target = getTarget(getBest(sheet.cell(val.row, 2).value))
             pb = getPB(sheet.cell(val.row, 5).value)
-    
+
     pprint(name + " | " + target + " | " + pb)
     data = {"name": name, "target": target, "pb": pb}
     return data
